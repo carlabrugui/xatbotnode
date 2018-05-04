@@ -7,9 +7,10 @@ const request = require('request');
 const urllib = require('urllib');
 
 const invokeFunction = (elementToSearch) => {
-
+console.log("Llego aquí! ");
     urllib.request(`https://xatbot-node-cec.herokuapp.com/cec/cecAdmin`,
         {   
+            
             method: 'GET',
             headers: {
                 "Content-Type": "application/json",

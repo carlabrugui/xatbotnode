@@ -10,10 +10,6 @@ var bodyParser = require('body-parser');
 var CECConnector = require('./Connector');
 
 const context = {
-  /*host: "https://emea-gse00009991.sites.us2.oraclecloud.com",
-  domain: "gse00009991",
-  user: "wedo",
-  password: "Oc4j1014"*/
   host: process.env.CEC_URL,
   domain: process.env.CEC_DOMAIN,
   user: process.env.CEC_USER,
@@ -21,27 +17,24 @@ const context = {
 }
 
 const config = {
-  /*contentType: "process.env.CEC_CONTENT_TYPE",
-  collectionId: "process.env.CEC_COLLECTION_ID"*/
   contentType: process.env.CEC_CONTENT_TYPE,
   collectionId: process.env.CEC_COLLECTION_ID
 }
 
 router.use(bodyParser.urlencoded({ extended: true }));
 
-//router.get('/wp/:id', function (req, res) {
-router.get('/get-respuesta/:name', function (req, res) {
+router.get('/wp/:id', function (req, res) {
   //logger.info("WEDOPAM::getById");
   var rc = require('./RC');
+  var service = require('./Service');
   let data = {
-    name: req.params.name
+    name: req.params.id
   }
   rc(context)
     .then(client => client.getContentItem(data, res))
-
 });
 
-/*lookup: contentId => {
+lookup: contentId => {
   logger.log('command: lookup - params [contentId: ' + contentId + ']');
   console.log("lookup!");
 
@@ -52,9 +45,9 @@ router.get('/get-respuesta/:name', function (req, res) {
       console.log('lookup=' + JSON.stringify(item))
       return 1;
     })
-}*/
+}
 
-/*router.post('/wp', function (req, res) {
+router.post('/wp', function (req, res) {
   logger.info("WEDOPAM::create");
   var rc = require('./RC');
   let data = req.body;
@@ -76,9 +69,9 @@ router.get('/get-respuesta/:name', function (req, res) {
   rc(context)
     .then(client => client.createContentItem(data, res))
 
-});*/
+});
 
-/*router.post('/wp/:id', function (req, res) {
+router.post('/wp/:id', function (req, res) {
   logger.info("WEDOPAM::update");
   var rc = require('./RC');
   let data = req.body;
@@ -130,7 +123,7 @@ router.post('/search', function (req, res) {
   rc(context)
     .then(client => client.searchByType(data, res))
 
-});*/
+});
 
 
 

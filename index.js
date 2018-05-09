@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const http = require('http');
 
 //invocar cec-restapi
-const cec_connection = require('./cec-restapi/pam/cec/cec_connector');
+const cec_connection = require('./cec_connector');
 
 const server = express();
 server.use(bodyParser.urlencoded({

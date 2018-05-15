@@ -7,7 +7,7 @@ const request = require('request');
 const urllib = require('urllib');
 
 const invokeFunction = (elementToSearch) => new Promise((resolve, reject) => {
-    urllib.request(`http://localhost:8080/cecAdmin/search`,
+    urllib.request(`https://xatbot-node-cec.herokuapp.com/cecAdmin/search`,
     { 
         method: 'POST',
         auth: "oracle:welcome1",
@@ -37,7 +37,7 @@ const invokeFunction = (elementToSearch) => new Promise((resolve, reject)
                                   
                 id_CEC = id_CEC.id;
                 console.log("id_CEC------------------->", id_CEC);
-                var url = `http://localhost:8080/cecAdmin/wp/${id_CEC}`;
+                var url = `https://xatbot-node-cec.herokuapp.com/cecAdmin/wp/${id_CEC}`;
 
                 datos_lookup(url)
                     .then(data => {resolve(data)})

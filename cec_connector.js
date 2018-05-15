@@ -71,7 +71,7 @@ const datos_lookup = (url) => new Promise((resolve, reject) => {
                     var entrada_descr = (respuesta.body.data.entradaglosario_textoentrada).toString();
 
                     //exportar datos para ser usados en la respuesta a DialogFlow
-                    respuesta = "Me has preguntado sobre " + entrada_name + ", esta es la infromación que tenemos: " + entrada_descr;
+                    respuesta = "Me has preguntado sobre " + entrada_name + ", esta es la información que tenemos: " + entrada_descr;
                 }
 
 

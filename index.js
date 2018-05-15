@@ -16,10 +16,9 @@ server.use(bodyParser.urlencoded({
 server.use(bodyParser.json());
 
 server.post('/conexionCEC', (req, res) => {
+    let elementToSearch;
 
-let elementToSearch = req.body.result.parameters.Entradas;
-
-if (elementToSearch===""){
+if (req.body.parameters ===undefined){
     elementToSearch = req.body.result.resolvedQuery;
 
     elementToSearch = elementToSearch.split(" ");
@@ -28,7 +27,10 @@ if (elementToSearch===""){
 
     elementToSearch = elementToSearch.split("?");
     elementToSearch = elementToSearch[0];
-};
+
+} else {
+    elementToSearch = req.body.result.parameters.Entradas;
+}
 
 
 //Invocar cec-restapi

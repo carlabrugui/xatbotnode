@@ -1,0 +1,211 @@
+{
+  "id": "50efd3d8-61ef-4ef3-b6c8-f81882b82011",
+  "name": "Entradas",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "alergia",
+      "synonyms": [
+        "alergia"
+      ]
+    },
+    {
+      "value": "amaranto",
+      "synonyms": [
+        "amaranto"
+      ]
+    },
+    {
+      "value": "anticuerpos",
+      "synonyms": [
+        "anticuerpos"
+      ]
+    },
+    {
+      "value": "arroz",
+      "synonyms": [
+        "arroz"
+      ]
+    },
+    {
+      "value": "avena",
+      "synonyms": [
+        "avena"
+      ]
+    },
+    {
+      "value": "biopsia",
+      "synonyms": [
+        "biopsia"
+      ]
+    },
+    {
+      "value": "cebada",
+      "synonyms": [
+        "cebada"
+      ]
+    },
+    {
+      "value": "celiaco",
+      "synonyms": [
+        "celiaco",
+        "celiaca"
+      ]
+    },
+    {
+      "value": "centeno",
+      "synonyms": [
+        "centeno"
+      ]
+    },
+    {
+      "value": "dieta",
+      "synonyms": [
+        "dieta"
+      ]
+    },
+    {
+      "value": "enfermedad autoinmune",
+      "synonyms": [
+        "enfermedad autoinmune"
+      ]
+    },
+    {
+      "value": "enfermedad celiaca",
+      "synonyms": [
+        "enfermedad celiaca",
+        "celiaquia"
+      ]
+    },
+    {
+      "value": "enfermedad sistematica",
+      "synonyms": [
+        "enfermedad sistematica"
+      ]
+    },
+    {
+      "value": "espelta",
+      "synonyms": [
+        "espelta"
+      ]
+    },
+    {
+      "value": "face",
+      "synonyms": [
+        "face",
+        "FACE"
+      ]
+    },
+    {
+      "value": "gluten",
+      "synonyms": [
+        "gluten"
+      ]
+    },
+    {
+      "value": "intolerancia alimentaria",
+      "synonyms": [
+        "intolerancia alimentaria",
+        "intolerancia",
+        "alimentaria"
+      ]
+    },
+    {
+      "value": "kamut",
+      "synonyms": [
+        "kamut"
+      ]
+    },
+    {
+      "value": "maiz",
+      "synonyms": [
+        "maiz"
+      ]
+    },
+    {
+      "value": "mijo",
+      "synonyms": [
+        "mijo"
+      ]
+    },
+    {
+      "value": "neurogluten",
+      "synonyms": [
+        "neurogluten"
+      ]
+    },
+    {
+      "value": "prolamina",
+      "synonyms": [
+        "prolamina"
+      ]
+    },
+    {
+      "value": "pseudocereal",
+      "synonyms": [
+        "pseudocereal"
+      ]
+    },
+    {
+      "value": "quinoa",
+      "synonyms": [
+        "quinoa"
+      ]
+    },
+    {
+      "value": "serologia",
+      "synonyms": [
+        "serologia"
+      ]
+    },
+    {
+      "value": "sistema inmunologico",
+      "synonyms": [
+        "sistema inmunologico",
+        "sistema",
+        "inmunologico"
+      ]
+    },
+    {
+      "value": "sorgo",
+      "synonyms": [
+        "sorgo"
+      ]
+    },
+    {
+      "value": "teff",
+      "synonyms": [
+        "teff"
+      ]
+    },
+    {
+      "value": "trigo",
+      "synonyms": [
+        "trigo"
+      ]
+    },
+    {
+      "value": "trigo sarraceno",
+      "synonyms": [
+        "trigo sarraceno",
+        "sarraceno"
+      ]
+    },
+    {
+      "value": "vellosidades intestinales",
+      "synonyms": [
+        "vellosidades intestinales",
+        "vellosidades",
+        "intestinales"
+      ]
+    },
+    {
+      "value": "zonulina",
+      "synonyms": [
+        "zonulina"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

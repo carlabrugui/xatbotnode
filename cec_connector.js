@@ -1,7 +1,5 @@
 "use strict"
 
-const log4js = require('log4js');
-const logger = log4js.getLogger();
 const express = require('express');
 const request = require('request');
 const urllib = require('urllib');
@@ -74,8 +72,6 @@ const datos_lookup = (url) => new Promise((resolve, reject) => {
                     respuesta = "Me has preguntado sobre " + entrada_name + ", esta es la información que tenemos: " + entrada_descr;
                 }
 
-
-                
                 resolve(respuesta); 
             }
         });

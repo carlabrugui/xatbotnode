@@ -1,0 +1,106 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CHATBOT_NODE_CEC",
+		"_postman_id": "b315beaa-4fb3-a006-85f5-5a158ef48fd1",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://xatbotnode.herokuapp.com/conexionCEC",
+			"request": {
+				"url": "https://xatbotnode.herokuapp.com/conexionCEC",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic b3JhY2xlOndlbGNvbWUx",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"f4d15331-0eb8-460b-8f2c-4a30efa95b45\",\n  \"timestamp\": \"2018-05-15T12:33:10.796Z\",\n  \"lang\": \"es\",\n  \"result\": {\n    \"source\": \"agent\",\n    \"resolvedQuery\": \"que es una zonulina\",\n    \"action\": \"get-respuesta\",\n    \"actionIncomplete\": false,\n    \"parameters\": {},\n    \"contexts\": [],\n    \"metadata\": {\n      \"intentId\": \"f59b3164-6deb-48c0-b1af-27f900f96561\",\n      \"webhookUsed\": \"true\",\n      \"webhookForSlotFillingUsed\": \"false\",\n      \"webhookResponseTime\": 5000,\n      \"intentName\": \"EntradasGlosario\"\n    },\n    \"fulfillment\": {\n      \"speech\": \"\",\n      \"messages\": [\n        {\n          \"type\": 0,\n          \"speech\": \"\"\n        }\n      ]\n    },\n    \"score\": 1\n  },\n  \"status\": {\n    \"code\": 206,\n    \"errorType\": \"partial_content\",\n    \"errorDetails\": \"Webhook call failed. Error: Request timeout.\"\n  },\n  \"sessionId\": \"b991e456-5cbf-4f4d-8ee7-18908a326103\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://xatbot-node-cec.herokuapp.com/cecAdmin/search",
+			"request": {
+				"url": "https://xatbot-node-cec.herokuapp.com/cecAdmin/search",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic b3JhY2xlOndlbGNvbWUx",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n    \"name\": \"dieta\",\n\t\"type\": \"EntradaGlosario\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/conexionCEC",
+			"request": {
+				"url": "http://localhost:8000/conexionCEC",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"f4d15331-0eb8-460b-8f2c-4a30efa95b45\",\n  \"timestamp\": \"2018-05-15T12:33:10.796Z\",\n  \"lang\": \"es\",\n  \"result\": {\n    \"source\": \"agent\",\n    \"resolvedQuery\": \"que es una zonulina\",\n    \"action\": \"get-respuesta\",\n    \"actionIncomplete\": false,\n    \"parameters\": {},\n    \"contexts\": [],\n    \"metadata\": {\n      \"intentId\": \"f59b3164-6deb-48c0-b1af-27f900f96561\",\n      \"webhookUsed\": \"true\",\n      \"webhookForSlotFillingUsed\": \"false\",\n      \"webhookResponseTime\": 5000,\n      \"intentName\": \"EntradasGlosario\"\n    },\n    \"fulfillment\": {\n      \"speech\": \"\",\n      \"messages\": [\n        {\n          \"type\": 0,\n          \"speech\": \"\"\n        }\n      ]\n    },\n    \"score\": 1\n  },\n  \"status\": {\n    \"code\": 206,\n    \"errorType\": \"partial_content\",\n    \"errorDetails\": \"Webhook call failed. Error: Request timeout.\"\n  },\n  \"sessionId\": \"b991e456-5cbf-4f4d-8ee7-18908a326103\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/cecAdmin/search",
+			"request": {
+				"url": "http://localhost:8080/cecAdmin/search",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \n    \"name\": \"dieta\",\n\t\"type\": \"EntradaGlosario\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

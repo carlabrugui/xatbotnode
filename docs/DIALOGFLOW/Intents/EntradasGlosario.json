@@ -1,0 +1,121 @@
+{
+  "id": "f59b3164-6deb-48c0-b1af-27f900f96561",
+  "name": "EntradasGlosario",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get-respuesta",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526386638,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "d31b4907-9f5c-4676-822f-6444567db768",
+      "data": [
+        {
+          "text": "que es "
+        },
+        {
+          "text": "una",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "biopsia",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526386638,
+      "isAuto": false
+    },
+    {
+      "id": "b5660fc8-c51e-4383-ae80-376770fab889",
+      "data": [
+        {
+          "text": "Información sobre "
+        },
+        {
+          "text": "avena",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526386638,
+      "isAuto": false
+    },
+    {
+      "id": "27960852-9d73-4875-b8e2-e9e820f6aa4c",
+      "data": [
+        {
+          "text": "que quiere decir "
+        },
+        {
+          "text": "zonulina",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526386638,
+      "isAuto": false
+    },
+    {
+      "id": "0ff3b1fe-d04d-4a78-8d50-7f919b83de95",
+      "data": [
+        {
+          "text": "me puedes dar información sobre el "
+        },
+        {
+          "text": "amaranto",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526386638,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

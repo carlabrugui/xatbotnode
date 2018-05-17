@@ -2,7 +2,6 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const http = require('http');
 
 //invocar cec-restapi
 const cec_connection = require('./cec_connector');
@@ -32,10 +31,6 @@ if (req.body.parameters ===undefined){
     elementToSearch = req.body.result.parameters.Entradas;
 }
 
-
-//Invocar cec-restapi
-//Obtener content item
-//Variable para recuperar content item y printar al xatbot
 const item = cec_connection.invokeFunction(elementToSearch)
     .then(data => {
         res.json({

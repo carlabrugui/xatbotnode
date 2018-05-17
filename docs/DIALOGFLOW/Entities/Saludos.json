@@ -1,0 +1,35 @@
+{
+  "id": "4c728a47-413b-4f2d-b809-9f88f4ca1120",
+  "name": "Saludos",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Buenas",
+      "synonyms": [
+        "buenas"
+      ]
+    },
+    {
+      "value": "Buenos días",
+      "synonyms": [
+        "buenos días",
+        "buenos dias"
+      ]
+    },
+    {
+      "value": "Buenas tardes",
+      "synonyms": [
+        "Buenas tardes"
+      ]
+    },
+    {
+      "value": "Hola",
+      "synonyms": [
+        "Hola",
+        "ola"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

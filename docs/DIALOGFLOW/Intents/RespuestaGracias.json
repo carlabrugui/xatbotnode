@@ -1,0 +1,77 @@
+{
+  "id": "be4657e4-e144-4e7b-98dc-2565ac033059",
+  "name": "RespuestaGracias",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "30629bf4-df59-4f17-bace-3e9672a3164c",
+          "required": false,
+          "dataType": "@Gracias",
+          "name": "Gracias",
+          "value": "$Gracias",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "De nada ! Si quieres saber algo más pregúntame y sino espero que volvamos ha hablar pronto !"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526387147,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "39b25e7a-32b1-4a22-ac0c-9a5f81f1bca5",
+      "data": [
+        {
+          "text": "merci",
+          "alias": "Gracias",
+          "meta": "@Gracias",
+          "userDefined": true
+        },
+        {
+          "text": " por tu ayuda"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526381645,
+      "isAuto": false
+    },
+    {
+      "id": "d7dc8f6a-67f9-4d12-aa19-43ff407bf8db",
+      "data": [
+        {
+          "text": "Gracias",
+          "alias": "Gracias",
+          "meta": "@Gracias",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1526381645,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2dccd119-393f-4df5-a51f-95404e76a6fa",
+  "name": "Gracias",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "gracias",
+      "synonyms": [
+        "gracias"
+      ]
+    },
+    {
+      "value": "muchas gracias",
+      "synonyms": [
+        "muchas gracias"
+      ]
+    },
+    {
+      "value": "merci",
+      "synonyms": [
+        "merci"
+      ]
+    },
+    {
+      "value": "thank you",
+      "synonyms": [
+        "thank you"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

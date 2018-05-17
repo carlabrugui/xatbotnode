@@ -1,0 +1,151 @@
+{
+  "id": "438ef9f9-5e42-4da1-ab81-ad8f09e2baf4",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "eedfcb79-c5dc-4f80-8a49-fa8fb71d4e42",
+          "required": false,
+          "dataType": "@Saludos",
+          "name": "Saludos",
+          "value": "$Saludos",
+          "isList": false
+        },
+        {
+          "id": "ee488d75-780e-42b2-affc-6a46d7926749",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "¡Hola! En que puedo ayudarte?",
+            "¡Hey! En que puedo ayudarte?",
+            "¡Buenos días! En que puedo ayudarte?",
+            "$Saludos $given-name ! En que puedo ayudarte?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523871374,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "798cd067-d03d-4ea2-a262-f83d40babb18",
+      "data": [
+        {
+          "text": "buenos dias",
+          "alias": "Saludos",
+          "meta": "@Saludos",
+          "userDefined": false
+        },
+        {
+          "text": ", mi nombre es "
+        },
+        {
+          "text": "Ana",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1523871374,
+      "isAuto": false
+    },
+    {
+      "id": "3504dc8c-bf42-4fa7-801a-5efade1d57c8",
+      "data": [
+        {
+          "text": "Hola",
+          "alias": "Saludos",
+          "meta": "@Saludos",
+          "userDefined": false
+        },
+        {
+          "text": "!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1523871374,
+      "isAuto": false
+    },
+    {
+      "id": "9413cb47-70b5-4c26-a5ab-7180d66eb7e6",
+      "data": [
+        {
+          "text": "Buenas",
+          "alias": "Saludos",
+          "meta": "@Saludos",
+          "userDefined": false
+        },
+        {
+          "text": ", soy "
+        },
+        {
+          "text": "Eduardo!",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1523871374,
+      "isAuto": false
+    },
+    {
+      "id": "1f03061c-c86a-4c6d-93ee-09bf085a30ab",
+      "data": [
+        {
+          "text": "Hola",
+          "alias": "Saludos",
+          "meta": "@Saludos",
+          "userDefined": false
+        },
+        {
+          "text": ", me llamo "
+        },
+        {
+          "text": "Paco",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        },
+        {
+          "text": "!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1523871374,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
